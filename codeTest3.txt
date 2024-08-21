@@ -1,0 +1,7 @@
+create x := 5;
+create y ;
+tape
+{
+	y = 7;
+	cout y;
+}

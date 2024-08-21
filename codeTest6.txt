@@ -1,0 +1,5 @@
+create x:= 5;
+tape
+{
+	pick x cout x; : cout 0;;
+}

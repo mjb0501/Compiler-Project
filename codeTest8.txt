@@ -1,0 +1,5 @@
+create x:= 5;
+tape
+{
+	repeat x = 1 + x; until [x > 9];
+}

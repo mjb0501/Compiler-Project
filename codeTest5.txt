@@ -1,0 +1,6 @@
+create x:= 35;
+tape
+{
+	if [ x ... 21 ] then 
+		cout 5;;
+}

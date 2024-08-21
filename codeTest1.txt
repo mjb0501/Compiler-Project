@@ -1,0 +1,5 @@
+create x := 5;
+tape
+{
+	cin x ;
+}

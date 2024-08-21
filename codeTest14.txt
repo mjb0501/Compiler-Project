@@ -1,0 +1,11 @@
+create z := 4;
+create y := 1;
+tape
+{
+
+    while [ y < z ] {
+        cout y ;
+        set y = y + 1 ;
+    } ;
+
+}

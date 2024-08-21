@@ -1,0 +1,17 @@
+create z := 4;
+create y := 1;
+create out ;
+tape
+{
+
+    repeat  {
+
+        if [ y > z ] then {
+            jump out ;
+        } ;
+        cout y ;
+        set y = y + 1 ;
+    } until [ 1 < 0 ] ;
+
+    label out ;
+}

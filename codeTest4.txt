@@ -1,0 +1,8 @@
+create x := 5;
+create y;
+tape
+{
+	y = 7;
+	set y = 5 * 7 + ^ x ;
+	cout y;
+}

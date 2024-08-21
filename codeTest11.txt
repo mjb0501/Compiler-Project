@@ -1,0 +1,12 @@
+create z:= 4;
+create y:= 3;
+create t;
+tape
+{
+	if [z < y] then {
+		cout z;
+	};
+	if [z > y] then {
+		cout y;
+	};
+}

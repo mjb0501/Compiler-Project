@@ -1,0 +1,16 @@
+tape
+{
+	create input;
+	cin input;
+	while [input > ^1]
+	{
+		create seconds := 60;
+		cout input;
+		repeat
+		{
+			seconds = seconds - 1;
+			cout seconds;
+		} until [seconds < 1];
+		input = input - 1;
+	};
+}

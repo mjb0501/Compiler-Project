@@ -1,0 +1,13 @@
+create z := 4;
+create y := 3;
+create t ;
+tape
+func add {
+        create t := 2;
+        create m := 1;
+        cout t + m ;
+}
+{
+        jump add ;
+        //done
+}

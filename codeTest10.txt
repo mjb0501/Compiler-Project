@@ -1,0 +1,12 @@
+create x:= 5;
+tape
+func function
+{
+	create y:= 3;
+	cout y;
+}
+{
+	create z:= 5;
+	cout x - ^z;
+	jump function;
+}

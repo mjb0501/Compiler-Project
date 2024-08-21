@@ -1,0 +1,9 @@
+create x := 1;
+tape
+{
+	cin x;
+	if [x < 13] then jump skip;;
+	if [x > 19] then jump skip;;
+	cout x;
+	label skip;
+}

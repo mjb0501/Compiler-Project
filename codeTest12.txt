@@ -1,0 +1,8 @@
+create z := 4;
+create y := 3;
+create t ;
+tape
+{
+
+    pick y - z cout 1 ; : cout 2 ; ;
+}

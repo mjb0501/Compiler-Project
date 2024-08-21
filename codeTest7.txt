@@ -1,0 +1,5 @@
+create x:= 6;
+tape
+{
+	while [x < 10] x = x + 1;;
+}

@@ -1,0 +1,18 @@
+create x := 1;
+tape
+func calculate 
+{
+	create y;
+	cin y;
+	cout x;
+	set x = x - y;
+}
+{
+	cin x;
+	while [x > 0]
+	{
+		create z := 34;
+		jump calculate;
+		cout z;
+	};
+}
